@@ -1,0 +1,11 @@
+html,
+body {
+    font-size: 18px;
+    height: 100%;
+}
+
+body {
+    max-width: 375px;
+    font-family: var(--font-barlow);
+    line-height: 1.5rem;
+}
