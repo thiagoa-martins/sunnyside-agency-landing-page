@@ -8,4 +8,6 @@ body {
     max-width: 375px;
     font-family: var(--font-barlow);
     line-height: 1.5rem;
+    color: var(--color-neutral-white);
+    background-color: #000;
 }

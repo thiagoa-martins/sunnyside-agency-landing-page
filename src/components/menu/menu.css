@@ -1,0 +1,18 @@
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin: 0 1.5rem;
+}
+
+.menu li a {
+    text-transform: capitalize;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
