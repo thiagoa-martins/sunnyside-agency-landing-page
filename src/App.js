@@ -2,16 +2,12 @@ import "./styles/settings/colors.css";
 import "./styles/settings/fonts.css";
 import "./styles/generic/reset.css";
 import "./styles/elements/base.css";
-import Logo from "./components/logo/logo";
-import Menu from "./components/menu/menu";
-import Button from "./components/button/button";
+import Head from "./objects/head/head";
 
 function App() {
   return (
     <>
-      <Logo />
-      <Menu />
-      <Button label="contact"/>
+      <Head />
     </>
   );
 }
