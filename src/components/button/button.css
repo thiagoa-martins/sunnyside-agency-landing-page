@@ -1,0 +1,16 @@
+.button {
+    text-transform: uppercase;
+    color: var(--color-neutral-very-dark-desaturated-blue);
+    background-color: var(--color-neutral-white);
+    padding: 1rem 1.5rem;
+    border: none;
+    border-radius: 1.5rem;
+    font-weight: bold;
+    font-family: var(--font-fraunces);
+    transition: 200ms filter;
+    cursor: pointer;
+}
+
+.button:hover {
+    filter: brightness(.9);
+}
