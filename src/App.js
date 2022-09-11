@@ -2,12 +2,12 @@ import "./styles/settings/colors.css";
 import "./styles/settings/fonts.css";
 import "./styles/generic/reset.css";
 import "./styles/elements/base.css";
-import Head from "./objects/head/head";
+import Header from "./objects/header/header";
 
 function App() {
   return (
     <>
-      <Head />
+      <Header />
     </>
   );
 }
