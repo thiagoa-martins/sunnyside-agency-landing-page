@@ -1,5 +1,6 @@
 .header {
-    padding-top: 2rem;
     background-image: url('../../images/desktop/image-header.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
+    height: 700px;
 }

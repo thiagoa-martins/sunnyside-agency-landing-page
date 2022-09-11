@@ -6,9 +6,11 @@ import ArrowDown from "../../components/arrowDown/arrowDown";
 const Header = () => {
     return (
         <header className="header">
-            <Head />
-            <TitleMain />
-            <ArrowDown />
+            <div className="container">
+                <Head />
+                <TitleMain />
+                <ArrowDown />
+            </div>
         </header>
     );
 };
