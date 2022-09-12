@@ -1,19 +1,24 @@
 .card-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    background-color: var(--color-neutral-white);
     width: 50%;
 }
 
 .card-services div {
-    background-color: var(--color-neutral-white);
     color: var(--color-neutral-very-dark-desaturated-blue);
     font-family: var(--font-fraunces);
     text-align: justify;
-    padding: 5rem;
+    padding: 0 6rem;
 }
 
 .card-services div h2 {
     font-weight: bold;
     font-size: 2rem;
+    width: 285px;
+    line-height: 2.5rem;
 }
 
 .card-services div p {
@@ -25,12 +30,14 @@
 
 .card-services div .box {
     display: inline-block;
-    width: 30%;
-    border-bottom: 4px solid var(--color-primary-yellow);
+    width: 145px;
+    border-bottom: 6px solid var(--color-primary-yellow);
     text-align: center;
 }
 
-.card-services div span .text {
+.card-services div span .link {
+    text-decoration: none;
+    color: var(--color-neutral-very-dark-desaturated-blue);
     text-transform: uppercase;
     font-weight: bold;
 }
