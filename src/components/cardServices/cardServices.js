@@ -1,8 +1,12 @@
+import "./cardServices.css";
+
 const CardServices = ({ children }) => {
     return (
         <div className="card-services">
-            {children}            
-            <span>learn more</span>
+            <div>
+                {children}            
+                <span className="box"><span className="text">learn more</span></span>
+            </div>
         </div>
     );
 };

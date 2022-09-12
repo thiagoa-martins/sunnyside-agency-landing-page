@@ -1,0 +1,36 @@
+.card-services {
+    text-align: center;
+    width: 50%;
+}
+
+.card-services div {
+    background-color: var(--color-neutral-white);
+    color: var(--color-neutral-very-dark-desaturated-blue);
+    font-family: var(--font-fraunces);
+    text-align: justify;
+    padding: 5rem;
+}
+
+.card-services div h2 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.card-services div p {
+    color: var(--color-neutral-dark-grayish-blue);
+    font-weight: 600;
+    font-family: var(--font-barlow);
+    margin: 2rem 0;
+}
+
+.card-services div .box {
+    display: inline-block;
+    width: 30%;
+    border-bottom: 4px solid var(--color-primary-yellow);
+    text-align: center;
+}
+
+.card-services div span .text {
+    text-transform: uppercase;
+    font-weight: bold;
+}
