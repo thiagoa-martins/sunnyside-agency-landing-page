@@ -20,7 +20,7 @@ const Services = () => {
             <CardImage src={ImageTransform} alt="Image transform" />
             <CardImage src={ImageStandOut} alt="Image stand out" />
 
-            <CardServices>
+            <CardServices color="hsl(7, 99%, 70%)">
                 <h2>Stand out to the right audience</h2>
 
                 <p>
