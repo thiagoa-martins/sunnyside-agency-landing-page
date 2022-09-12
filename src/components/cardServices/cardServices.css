@@ -28,16 +28,16 @@
     margin: 2rem 0;
 }
 
-.card-services div .box {
+.card-services div a.box {
     display: inline-block;
+    text-decoration: none;
     width: 145px;
     border-bottom: 6px solid var(--color-primary-yellow);
     text-align: center;
+    color: var(--color-neutral-very-dark-desaturated-blue);
 }
 
-.card-services div span .link {
-    text-decoration: none;
-    color: var(--color-neutral-very-dark-desaturated-blue);
+.card-services div a .text {
     text-transform: uppercase;
     font-weight: bold;
 }

@@ -5,7 +5,9 @@ const CardServices = ({ children }) => {
         <div className="card-services">
             <div>
                 {children}            
-                <span className="box"><a className="link" href="#">learn more</a></span>
+                <a className="box" href="#">
+                    <span className="text">learn more</span>
+                </a>
             </div>
         </div>
     );
