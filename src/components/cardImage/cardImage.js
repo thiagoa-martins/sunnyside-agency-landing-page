@@ -1,8 +1,7 @@
 import "./cardImage.css";
-import ImageTransform from "../../images/desktop/image-transform.jpg";
 
-const CardImage = () => {
-    return <img className="card-image" src={ImageTransform} alt="" title="" />;
+const CardImage = ({ src, alt }) => {
+    return <img className="card-image" src={src} alt={alt} title={alt} />;
 };
 
 export default CardImage;

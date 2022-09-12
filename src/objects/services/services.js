@@ -1,6 +1,7 @@
 import "./services.css";
 import CardServices from "../../components/cardServices/cardServices";
 import CardImage from "../../components/cardImage/cardImage";
+import ImageTransform from "../../images/desktop/image-transform.jpg";
 
 const Services = () => {
     return (
@@ -15,7 +16,7 @@ const Services = () => {
                 </p>
             </CardServices>
 
-            <CardImage />
+            <CardImage src={ImageTransform} alt="Image transform" />
         </section>
     );
 };
