@@ -1,0 +1,9 @@
+.testimonials {
+    background-color: var(--color-neutral-white);
+    padding: 7rem 4rem;
+}
+
+.testimonials .cards {
+    display: flex;
+    justify-content: space-between;
+}
