@@ -1,7 +1,11 @@
 import "./logo.css";
 
-const Logo = () => {
-    return <span className="logo">sunnyside</span>;
+const Logo = ({ color }) => {
+    return <span className="logo" style={{ color }}>sunnyside</span>;
+};
+
+Logo.defaultProps = {
+    color: "var(--color-neutral-white)"
 };
 
 export default Logo;
