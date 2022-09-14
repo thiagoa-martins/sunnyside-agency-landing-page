@@ -5,7 +5,7 @@ import ArrowDown from "../../components/arrowDown/arrowDown";
 
 const Header = () => {
     return (
-        <header className="header">
+        <header className="header" id="header">
             <div className="container">
                 <Head />
                 <TitleMain />

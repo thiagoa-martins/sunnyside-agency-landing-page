@@ -6,7 +6,7 @@ import Socials from "../../components/socials/socials";
 
 const Footer = () => {
     return (
-        <footer className="footer">
+        <footer className="footer" id="contact">
             <Gallery />
 
             <section>

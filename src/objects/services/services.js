@@ -6,7 +6,7 @@ import ImageStandOut from "../../images/desktop/image-stand-out.jpg";
 
 const Services = () => {
     return (
-        <section className="services">
+        <section className="services" id="services">
             <CardServices>
                 <h2>Transform your brand</h2>
 
@@ -17,8 +17,8 @@ const Services = () => {
                 </p>
             </CardServices>
 
-            <CardImage src={ImageTransform} alt="Image transform" />
-            <CardImage src={ImageStandOut} alt="Image stand out" />
+            <CardImage src={ImageTransform} alt="Transform" />
+            <CardImage src={ImageStandOut} alt="Stand out" />
 
             <CardServices color="hsl(7, 99%, 70%)">
                 <h2>Stand out to the right audience</h2>

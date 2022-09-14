@@ -1,7 +1,7 @@
 import "./button.css";
 
 const Button = ({ label }) => {
-    return <button className="button">{label}</button>
+    return <a href="#contact"><button className="button">{label}</button></a>;
 };
 
 Button.defaultProps = {

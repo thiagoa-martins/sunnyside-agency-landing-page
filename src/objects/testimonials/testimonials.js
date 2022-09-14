@@ -12,8 +12,8 @@ const Testimonials = () => {
 
             <div className="cards">
                 <ClientTestimonial src={ImageEmily}
-                alt="Image Emily"
-                title="Image Emily">
+                alt="Emily"
+                title="Emily">
                     <p>
                         We put our trust in Sunnyside and they delivered, making
                         sure our needs were met and deadlines were always hit.
@@ -24,8 +24,8 @@ const Testimonials = () => {
                 </ClientTestimonial>
 
                 <ClientTestimonial src={ImageThomas}
-                alt="Image Thomas"
-                title="Image Thomas">
+                alt="Thomas"
+                title="Thomas">
                     <p>
                         Sunnyside’s enthusiasm coupled with their keen interest in
                         our brand’s success made it a satisfying and enjoyable
@@ -37,8 +37,8 @@ const Testimonials = () => {
                 </ClientTestimonial>
 
                 <ClientTestimonial src={ImageJennie}
-                alt="Image Jennie"
-                title="Image Jennie">
+                alt="Jennie"
+                title="Jennie">
                     <p>
                         Incredible end result! Our sales increased over 400% when we
                         worked with Sunnyside. Highly recommended!

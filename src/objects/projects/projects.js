@@ -5,11 +5,11 @@ import ImagePhotography from "../../images/desktop/image-photography.jpg";
 
 const Projects = () => {
     return (
-        <section className="projects">
+        <section className="projects" id="projects">
             <div className="project">
                 <img src={ImageGraphicDesign}
-                alt="Image graphic design"
-                title="Image graphic design" />
+                alt="Graphic design"
+                title="Graphic design" />
                 
                 <CardProject
                 color="hsl(167, 40%, 24%)">
@@ -25,8 +25,8 @@ const Projects = () => {
 
             <div className="project">
                 <img src={ImagePhotography}
-                alt="Image photography"
-                title="Image photography" />
+                alt="Photography"
+                title="Photography" />
 
                 <CardProject
                 color="hsl(198, 62%, 26%)">
