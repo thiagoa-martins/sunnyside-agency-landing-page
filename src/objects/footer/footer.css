@@ -1,0 +1,27 @@
+.footer {
+    background-color: hsl(170, 47%, 74%);
+}
+
+.footer section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1rem;
+}
+
+.footer section .menu {
+    margin: 2rem 0  4rem;
+}
+
+.footer section .menu li a {
+    color: var(--color-primary-dark-desaturated-cyan);
+    font-weight: 500;
+}
+
+.footer  section .socials li {
+    transition: 200ms transform;
+}
+
+.footer section .socials li:hover {
+    transform: scale(1.2);
+}
