@@ -11,7 +11,7 @@ const Footer = () => {
 
             <section>
                 <Logo color="var(--color-primary-dark-desaturated-cyan)" />
-                <Menu />
+                <Menu color="var(--color-primary-dark-desaturated-cyan)" />
                 <Socials />
             </section>
         </footer>
