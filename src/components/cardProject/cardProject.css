@@ -1,18 +1,19 @@
 .card-project {
+    position: absolute;
     box-sizing: border-box;
     width: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
     text-align: center;
-    padding: 18.68rem 6rem 4rem;
+    top: 60%;
+    left: 25%;
+    margin: 0 auto;
 }
 
 .card-project h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     font-family: var(--font-fraunces);
     text-transform: capitalize;
-    padding: 2rem 0;
+    padding: 0 0 2rem;
 }
 
 .card-project p {

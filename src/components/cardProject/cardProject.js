@@ -1,8 +1,8 @@
 import "./cardProject.css";
 
-const CardProject = ({ children, color, backgroundImage }) => {
+const CardProject = ({ children, color }) => {
     return (
-        <div className="card-project" style={{ color, backgroundImage }}>
+        <div className="card-project" style={{ color }}>
             {children}
         </div>
     );

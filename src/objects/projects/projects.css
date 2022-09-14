@@ -1,3 +1,13 @@
 .projects {
     display: flex;
 }
+
+.projects div.project {
+    position: relative;
+    background-color: var(--color-neutral-white);
+    width: 50%;
+}
+
+.projects div.project img {
+    width: 100%;
+}
