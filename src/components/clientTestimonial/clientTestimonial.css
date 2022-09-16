@@ -32,3 +32,9 @@
     font-weight: 600;
     color: var(--color-neutral-grayish-blue);
 }
+
+@media screen and (max-width: 1000px) {
+    .client-testimonial {
+        width: 100%;
+    }
+}

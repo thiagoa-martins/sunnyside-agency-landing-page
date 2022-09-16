@@ -40,3 +40,31 @@
     text-transform: uppercase;
     font-weight: bold;
 }
+
+@media screen and (max-width: 1230px) {
+    .card-services div {
+        padding: 0 3rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .card-services {
+        width: 100%;
+    }
+    
+    .card-services div {
+        padding: 0 1rem;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .card-services div {
+        padding: 4rem 2rem;
+        text-align: center;
+    }
+
+    .card-services div h2 {
+        max-width: 100%;
+    }
+}

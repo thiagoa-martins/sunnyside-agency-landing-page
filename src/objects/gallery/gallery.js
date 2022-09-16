@@ -10,17 +10,14 @@ const Gallery = () => {
             <img src={ImageGalleryMilkbottes}
             alt="Gallery milkbottes"
             title="Gallery milkbottes" />
-            <img />
 
             <img src={ImageGalleryOrange}
             alt="Gallery orange"
             title="Gallery orange" />
-            <img />
 
             <img src={ImageGalleryCone}
             alt="Gallery cone"
             title="Gallery cone" />
-            <img />
 
             <img src={ImageGallerySugarcubes}
             alt="Gallery sugarcubes"

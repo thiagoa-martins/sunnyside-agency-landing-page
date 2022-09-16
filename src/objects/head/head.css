@@ -12,3 +12,19 @@
 .head nav .menu {
     margin-right: 1.5rem;
 }
+
+.head .icon-hamburger {
+    display: none;
+    cursor: pointer;
+    width: 1.5rem;
+}
+
+@media screen and (max-width: 710px) {
+    .head nav {
+        display: none;
+    }
+
+    .head .icon-hamburger {
+        display: block;
+    }
+}

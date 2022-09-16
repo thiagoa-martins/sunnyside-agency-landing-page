@@ -5,3 +5,13 @@
 .gallery img {
     width: 25%;
 }
+
+@media screen and (max-width: 950px) {
+    .gallery {
+        flex-wrap: wrap;
+    }
+
+    .gallery img {
+        width: 50%;
+    }
+}

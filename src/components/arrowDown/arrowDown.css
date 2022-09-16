@@ -1,4 +1,11 @@
 .arrow-down {
     display: block;
     margin: 0 auto;
+    padding-bottom: 14.5rem;
+}
+
+@media screen and (max-width: 400px) {
+    .arrow-down {
+        padding-bottom: 7.5rem;
+    }
 }

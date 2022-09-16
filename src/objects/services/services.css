@@ -2,3 +2,18 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.services .your-brand,
+.services .stand-out {
+    display: flex;
+}
+
+@media screen and (max-width: 1000px) {
+    .services .your-brand {
+        flex-direction: column-reverse;
+    }
+
+    .services .stand-out {
+        flex-direction: column;
+    }
+}

@@ -1,6 +1,12 @@
 .header {
-    background-image: url('../../images/desktop/image-header.jpg');
+    background-image: url("../../images/desktop/image-header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        background-image: url("../../images/mobile/image-header.jpg");
+        width: 100%;
+    }
 }

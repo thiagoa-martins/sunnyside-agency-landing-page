@@ -19,3 +19,10 @@
 .card-project p {
     font-weight: 600;
 }
+
+@media screen and (max-width: 1180px) {
+    .card-project {
+        width: 80%;
+        left: 11%;
+    }
+}

@@ -20,8 +20,17 @@
 
 .footer  section .socials li {
     transition: 200ms transform;
+    margin: 0 0.8rem;
 }
 
 .footer section .socials li:hover {
     transform: scale(1.2);
+}
+
+.footer  section .socials li a svg {
+    fill: #2C7566;
+}
+
+.footer  section .socials li:hover a svg {
+    fill: var(--color-neutral-white);
 }

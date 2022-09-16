@@ -5,5 +5,13 @@
     font-weight: bold;
     font-family: var(--font-fraunces);
     letter-spacing: 8px;
-    margin: 5rem 0 8.5rem;
+    margin: 5rem 0 3rem;
+    line-height: 2.5rem;
+}
+
+@media screen and (max-width: 400px) {
+    .title-main {
+        font-size: 2rem;
+        margin: 5rem 0 3rem;
+    }
 }

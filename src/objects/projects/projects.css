@@ -11,3 +11,23 @@
 .projects div.project img {
     width: 100%;
 }
+
+.projects div.graphic-design {
+    background-image: url("../../images/desktop/image-graphic-design.jpg");
+    background-repeat: no-repeat;
+    /* background-size: contain auto; */
+    /* min-width: 720px;
+    height: 600px; */
+    width: 100%;
+    /* height: 100%; */
+}
+
+@media screen and (max-width: 1000px) {
+    .projects {
+        flex-direction: column;
+    }
+
+    .projects div.project {
+        width: 100%;
+    }
+}

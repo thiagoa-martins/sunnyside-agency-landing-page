@@ -6,11 +6,11 @@ import ImagePhotography from "../../images/desktop/image-photography.jpg";
 const Projects = () => {
     return (
         <section className="projects" id="projects">
-            <div className="project">
-                <img src={ImageGraphicDesign}
+            <div className="project graphic-design">
+                {/* <img src={ImageGraphicDesign}
                 alt="Graphic design"
                 title="Graphic design" />
-                
+                 */}
                 <CardProject
                 color="hsl(167, 40%, 24%)">
                     <h3>Graphic design</h3>
