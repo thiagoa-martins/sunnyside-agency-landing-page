@@ -1,28 +1,28 @@
 .card-project {
-    position: absolute;
-    box-sizing: border-box;
-    width: 50%;
-    text-align: center;
-    top: 60%;
-    left: 25%;
-    margin: 0 auto;
+  position: absolute;
+  box-sizing: border-box;
+  width: 50%;
+  text-align: center;
+  top: 60%;
+  left: 25%;
+  margin: 0 auto;
 }
 
 .card-project h3 {
-    font-size: 2rem;
-    font-weight: bold;
-    font-family: var(--font-fraunces);
-    text-transform: capitalize;
-    padding: 0 0 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: var(--font-fraunces);
+  text-transform: capitalize;
+  padding: 0 0 2rem;
 }
 
 .card-project p {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 1180px) {
-    .card-project {
-        width: 80%;
-        left: 11%;
-    }
+  .card-project {
+    width: 80%;
+    left: 10%;
+  }
 }
