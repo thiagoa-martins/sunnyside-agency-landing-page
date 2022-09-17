@@ -1,20 +1,26 @@
 .testimonials {
-    background-color: var(--color-neutral-white);
-    padding: 7rem 4rem;
+  background-color: var(--color-neutral-white);
+  padding: 7rem 4rem;
 }
 
 .testimonials .cards {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1000px) {
-    .testimonials {
-        padding: 4rem;
-    }
+  .testimonials {
+    padding: 4rem;
+  }
 
-    .testimonials .cards {
-        flex-direction: column;
-        align-items: center;
-    }
+  .testimonials .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .testimonials {
+    padding: 2rem;
+  }
 }
