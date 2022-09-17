@@ -20,6 +20,11 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .services .your-brand div.image,
+  .services .stand-out div.image {
+    width: 100%;
+  }
+
   .services .your-brand {
     flex-direction: column-reverse;
   }
