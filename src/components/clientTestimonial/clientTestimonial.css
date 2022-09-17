@@ -1,40 +1,50 @@
 .client-testimonial {
-    width: 30%;
-    text-align: center;
-    padding: 1rem;
+  width: 30%;
+  text-align: center;
+  padding: 1rem;
 }
 
 .client-testimonial img {
-    width: 20%;
-    border-radius: 50%;
+  width: 20%;
+  border-radius: 50%;
 }
 
 .client-testimonial p {
-    color: var(--color-neutral-very-dark-grayish-blue);
-    font-weight: 600;
-    margin: 2.5rem 0;
+  color: var(--color-neutral-very-dark-grayish-blue);
+  font-weight: 600;
+  margin: 2.5rem 0;
 }
 
 .client-testimonial h4,
 .client-testimonial span {
-    display: block;
+  display: block;
 }
 
 .client-testimonial h4 {
-    font-weight: bold;
-    font-family: var(--font-fraunces);
-    color: var(--color-neutral-very-dark-desaturated-blue);
-    margin: 0.5rem 0;
+  font-weight: bold;
+  font-family: var(--font-fraunces);
+  color: var(--color-neutral-very-dark-desaturated-blue);
+  margin: 0.5rem 0;
 }
 
 .client-testimonial span {
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: var(--color-neutral-grayish-blue);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-neutral-grayish-blue);
 }
 
 @media screen and (max-width: 1000px) {
-    .client-testimonial {
-        width: 100%;
-    }
+  .client-testimonial {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .client-testimonial {
+    padding: 1.5rem 0;
+  }
+
+  .client-testimonial p {
+    margin: 1.5rem 0;
+  }
 }
