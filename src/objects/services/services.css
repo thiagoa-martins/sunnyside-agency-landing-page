@@ -6,6 +6,7 @@
 .services .your-brand,
 .services .stand-out {
   display: flex;
+  width: 100%;
 }
 
 .services .your-brand div.image,
