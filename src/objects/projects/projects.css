@@ -5,6 +5,7 @@
 .projects div.project {
   position: relative;
   width: 50%;
+  z-index: -1;
 }
 
 .projects div.project img {

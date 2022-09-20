@@ -9,8 +9,16 @@ body {
   font-family: var(--font-barlow);
   line-height: 1.5rem;
   color: var(--color-neutral-white);
+  position: relative;
 }
 
 .container {
   padding: 2rem 2rem 0;
+}
+
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 2rem 1rem 0;
+  }
 }

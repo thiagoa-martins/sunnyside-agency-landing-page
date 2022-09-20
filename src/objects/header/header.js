@@ -5,12 +5,13 @@ import ArrowDown from "../../components/arrowDown/arrowDown";
 import Menu from "../../components/menu/menu";
 import Button from "../../components/button/button";
 
-const handleHeader = event => {
+const handleHeader = (event) => {
+  const nav = document.querySelector(".nav");
+
   const classNameOfClickedElement = event.target.classList[0];
-  const nav = document.querySelector(".nav-mobile");
 
   if (classNameOfClickedElement === "icon-hamburger") {
-    nav.style.display = "block";
+    nav.style.display = "flex";
   }
 };
 
@@ -26,11 +27,6 @@ const Header = () => {
             <Button label="contact" />
           </nav>
         </div>
-
-        <nav className="nav-mobile">
-          <Menu />
-          <Button label="contact" />
-        </nav>
 
         <TitleMain />
         <ArrowDown />
