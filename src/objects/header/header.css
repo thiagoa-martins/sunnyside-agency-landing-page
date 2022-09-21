@@ -4,26 +4,21 @@
   background-size: cover;
 }
 
-.header .head-menu {
-  display: flex;
-  justify-content: space-between;
-}
-
-.header .head-menu nav {
+.header .head .head-menu nav {
   display: flex;
   align-items: center;
 }
 
-.header .head-menu nav .menu {
+.header .head .head-menu nav .menu {
   margin-right: 1.5rem;
 }
 
-.header .head-menu nav .menu li a {
+.header .head .head-menu nav .menu li a {
   color: var(--color-neutral-white);
   font-weight: 500;
 }
 
-.header .head-menu .head .icon-hamburger {
+.header .head .head-menu .icon-hamburger {
   display: none;
   cursor: pointer;
   width: 1.5rem;
@@ -35,54 +30,64 @@
     width: 100%;
   }
 
-  .header .head-menu .head .icon-hamburger {
-    display: block;
+  .header .head {
     position: fixed;
+    width: 92%;
+    left: 4%;
+  }
+
+  .header .head .logo {
+    opacity: .5;
+  }
+
+  .header .head .head-menu .icon-hamburger {
+    display: block;
     background-color: #3ebfff;
     padding: 0.2rem;
-    right: 2rem;
+    margin-right: 0;
   }
 
-  .header .head-menu .nav {
+  .header .head .head-menu .nav {
     display: none;
     position: absolute;
-    top: 100%;
-    margin-top: 3rem;
+    margin-top: 2rem;
+    left: 0;
     padding: 2rem 0;
     width: 100%;
+    box-shadow: 1px 1px 0.5rem var(--color-neutral-dark-grayish-blue);
   }
 
-  .header .head-menu .nav a {
+  .header .head .head-menu .nav a {
     display: block;
     text-align: center;
   }
 
-  .header .head-menu .nav a .button {
+  .header .head .head-menu .nav a .button {
     background-color: var(--color-primary-yellow);
   }
 
-  .header .head-menu .nav,
-  .header .head-menu .nav .menu {
+  .header .head .head-menu .nav,
+  .header .head .head-menu .nav .menu {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: var(--color-neutral-white);
   }
 
-  .header .head-menu nav .menu {
+  .header .head .head-menu .nav .menu {
     margin: 0;
   }
 
-  .header .head-menu .nav .menu li {
+  .header .head .head-menu .nav .menu li {
     margin-bottom: 1rem;
   }
 
-  .header .head-menu .nav .menu li a {
+  .header .head .head-menu .nav .menu li a {
     color: var(--color-neutral-dark-grayish-blue);
     font-weight: 600;
   }
 
-  .header .head-menu .nav .menu li a .button {
+  .header .head .head-menu .nav .menu li a .button {
     margin: 0 auto;
   }
 }
