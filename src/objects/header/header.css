@@ -47,6 +47,10 @@
     margin-right: 0;
   }
 
+  .header .head .head-menu .nav.open {
+    display: flex;
+  }
+
   .header .head .head-menu .nav {
     display: none;
     position: absolute;

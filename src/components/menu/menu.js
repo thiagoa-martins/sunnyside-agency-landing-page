@@ -3,9 +3,9 @@ import "./menu.css";
 const Menu = () => {
     return (
         <ul className="menu">
-            <li><a href="#header">about</a></li>
-            <li><a href="#services">services</a></li>
-            <li><a href="#projects">projects</a></li>
+            <li><a className="section" href="#header">about</a></li>
+            <li><a className="section" href="#services">services</a></li>
+            <li><a className="section" href="#projects">projects</a></li>
         </ul>
     );
 };
